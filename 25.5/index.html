@@ -10,7 +10,7 @@
   <h1>ES6 Practice Day-3</h1>
   <h2>JavaScript Object Notation</h2>
 
-  <ul class="users-container">
+  <ul id="users-container">
 
   </ul>
   
@@ -28,7 +28,7 @@
     for (let i = 0; i < userNames.length ; i++) {
       const username = userNames[i];
       const li = document.createElement("li");
-      li.innerText = users;
+      li.innerText = username;
       ul.appendChild(li);
       
     }
